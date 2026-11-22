@@ -1,0 +1,31 @@
+bounty:
+  duration-minutes: 30
+  max-distance-from-spawn: 300
+
+invis:
+  duration-minutes: 10
+
+visual:
+  duration-seconds: 10
+
+boss:
+  duration-minutes: 20
+  extra-hearts: 20.0
+  coord-announce-seconds: 15
+
+meteor:
+  waves: 6
+  interval-seconds: 5
+  spread-radius: 90
+  crater-radius: 3
+  restore-after-seconds: 90
+
+lowgrav:
+  duration-minutes: 3
+
+frenzy:
+  duration-minutes: 2
+
+balance:
+  harming-bow-cooldown-seconds: 5
+  mace-damage-multiplier: 0.5
