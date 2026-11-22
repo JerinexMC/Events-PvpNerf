@@ -1,0 +1,16 @@
+name: CasualEvents
+version: 1.1.0
+main: com.casual.events.CasualEventsPlugin
+api-version: '1.21'
+commands:
+  event:
+    description: Start or stop server events
+    usage: /event <start|stop> [type] [player]
+    permission: casualevents.admin
+  bounty:
+    description: Open event prize pool chest
+    usage: /bounty event prize
+    permission: casualevents.admin
+permissions:
+  casualevents.admin:
+    default: op
